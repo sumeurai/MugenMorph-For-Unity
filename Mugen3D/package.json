@@ -1,0 +1,29 @@
+{
+  "name": "com.mugen3d.mugenmorph",
+  "version": "0.0.7",
+  "displayName": "MugenMorph for Unity",
+  "description": "Drive ARKit-ready 3D characters with speech-synchronized facial animation via the Mugen3D MugenMorph API.",
+  "unity": "2020.3",
+  "documentationUrl": "https://github.com/sumeurai/MugenMorph-For-Unity#readme",
+  "changelogUrl": "https://github.com/sumeurai/MugenMorph-For-Unity/blob/main/Mugen3D/CHANGELOG.md",
+  "licensesUrl": "https://github.com/sumeurai/MugenMorph-For-Unity/blob/main/LICENSE",
+  "license": "MIT",
+  "keywords": [
+    "audio",
+    "lip-sync",
+    "blendshape",
+    "arkit",
+    "facial-animation"
+  ],
+  "author": {
+    "name": "Mugen3D",
+    "url": "https://mugen3d.ai/"
+  },
+  "samples": [
+    {
+      "displayName": "ARKit Head Sample Scenes",
+      "description": "Untextured ARKit_head.fbx in three scenes: HDRP (MugenMorph), URP (MugenMorph_URP), Built-in (MugenMorph_BuiltIn). Open the scene that matches the project pipeline. Git packages are read-only — import this sample (or use Tools → Mugen3D → Samples) so the scenes copy into Assets before you open them.",
+      "path": "Samples/Scenes"
+    }
+  ]
+}

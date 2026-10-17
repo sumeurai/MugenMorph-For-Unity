@@ -1,0 +1,21 @@
+{
+    "name": "Mugen3D.NAudio.Player",
+    "rootNamespace": "Mugen3D",
+    "references": [
+        "Mugen3D.Runtime"
+    ],
+    "includePlatforms": [
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "NAudio.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
