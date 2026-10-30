@@ -112,13 +112,13 @@ This is the same layout as copying the folder into `Assets`. It is **not** a Pac
 2. Enter Access Key and Secret Key, then **Save Settings**.  
    Keys are stored in Editor preferences for this project, so they survive package updates and are not included in a player build. In a build, call `APISettingsConfig.SetCredentials` before `Login`.
 
-Default endpoints (already set on the sample config):
+Default endpoints (built into `APISettingsConfig`):
 
 | Setting | Value |
 | --- | --- |
 | Base URL | `https://api.mugen3d.ai/` |
 | Login | `v1/access/auth` |
-| MugenMorph | `v1/audio-to-face/offline-mesh` |
+| MugenMorph | `v1/mugen-morph/offline-mesh` |
 
 ---
 
@@ -232,7 +232,7 @@ Callers normally use `PlayFromAudio`. The HTTP layer is:
 
 1. **Login** `POST v1/access/auth`  
    Body: `{ "accessKey", "secretKey" }` → `accessToken`
-2. **MugenMorph** `POST v1/audio-to-face/offline-mesh`  
+2. **MugenMorph** `POST v1/mugen-morph/offline-mesh`<br>
    Header: `Authorization: <token>`, `Accept: application/x-protobuf`  
    Body: `{ "traceId", "data": "<wav-base64>" }`
 

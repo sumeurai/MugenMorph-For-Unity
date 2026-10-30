@@ -6,7 +6,7 @@ namespace Mugen3D.API
     {
         const string DefaultBaseUrl = "https://api.mugen3d.ai/";
         const string DefaultLogin = "v1/access/auth";
-        const string DefaultMugenMorphMesh = "v1/audio-to-face/offline-mesh";
+        const string DefaultMugenMorphMesh = "v1/mugen-morph/offline-mesh";
 
         [SerializeField] private string accessKey;
         [SerializeField] private string secretKey;

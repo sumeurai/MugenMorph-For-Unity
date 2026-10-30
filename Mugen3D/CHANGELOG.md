@@ -5,6 +5,13 @@ All notable changes to this package are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.8] - 2026-10-30
+
+### Changed
+
+- Updated the default MugenMorph offline mesh endpoint to `v1/mugen-morph/offline-mesh` and synchronized the API documentation.
+- Updated the ARKit head sample model (`Samples/Models/ARKit_head.fbx`).
+
 ## [0.0.7] - 2026-10-08
 
 ### Added
